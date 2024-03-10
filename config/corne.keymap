@@ -37,12 +37,12 @@
 // |  TAB |  [  |  ]  |  UP | HOME| END  |   |  =  |  7  |  8  |  9  |     | BKSP     |
 // | SHFT |     | LFT | DWN | RGT | PGUP |   |  -  |  4  |  5  |  6  |  \  | SHFT / ` |
 // | CTRL |     |     |     | INS | PGDWN|   |  /  |  1  |  2  |  3  | "|" | CTRL / ~ |
-//                    | GUI | ENT | SPC  |   | ENT |  0  |  .  |
+//                    | GUI | ENT | BKSP |   | ENT |  0  |  .  |
                         bindings = <
    &kp TAB    &kp LBKT &kp RBKT      &kp UP       &kp HOME   &kp END       &kp EQUAL &kp N7   &kp N8   &kp N9 &trans        &kp BSPC
    &kp LSHFT  &trans   &kp LEFT      &kp DOWN     &kp RIGHT  &kp PAGE_UP   &kp MINUS &kp N4   &kp N5   &kp N6 &kp BACKSLASH &mt RSHIFT GRAVE
    &kp LCTRL  &trans   &trans        &trans       &kp INS    &kp PAGE_DOWN &kp FSLH  &kp N1   &kp N2   &kp N3 &kp PIPE      &mt RCTRL TILDE
-              &kp LGUI &kp RET      &kp SPACE                         &kp RET   &kp N0   &kp DOT
+              &kp LGUI &kp RET       &kp BSPC                         &kp RET   &kp N0   &kp DOT
                         >;
                 };
                 next_layer {
